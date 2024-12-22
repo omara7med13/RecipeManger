@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4;
+}
+header {
+    background-color: #42558e; /* Darker blue for the header */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 5px solid #853731; /* A red border to make it pop */
+}
+
+nav a {
+    color: rgb(237, 232, 232);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #261d1c; /* Change to red when hovered for a nice effect */
+}
+
+main {
+    padding: 20px;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #5c2b26; /* Red footer to contrast with the header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+form {
+    background-color:#fef6e4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input, form textarea, form button {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #3053aa; /* Matching the header color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2e58b5; /* Darker blue on hover */
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+.fixed-logout {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+.logout-button {
+    background-color: #FF6F61; /* Bright red logout button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button:hover {
+    background-color: #e14a3f; /* Slightly darker red on hover */
+}
+/* Ensure that the body and html fill the entire page */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+#popupImage img {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    left: 36%;  /* Moves the image to the right */
+}
